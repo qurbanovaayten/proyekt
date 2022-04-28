@@ -1,0 +1,857 @@
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 10;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.navbar .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar li {
+  color: black;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 600;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-size: 19px;
+}
+
+.navbar li:hover {
+  color: #eacf4f !important;
+}
+
+.navbar li:hover hr {
+  width: 90%;
+}
+
+.navbar .logo {
+  width: 200px;
+  height: 50px;
+}
+
+.navbar .logo1 {
+  display: none;
+}
+
+.navbar .mobile-menu-icon {
+  display: none;
+}
+
+.navbar .link {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  margin-right: 4px;
+}
+
+.navbar .link:hover {
+  color: #eacf4f !important;
+}
+
+.navbar .link:hover hr {
+  width: 100%;
+}
+
+.navbar hr {
+  width: 0%;
+  margin: 0%;
+  padding: 0%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #eacf4f;
+  height: 2px !important;
+  opacity: 1;
+}
+
+.navbar .active {
+  color: #eacf4f !important;
+  border-bottom: 2px solid #eacf4f;
+}
+
+.navbar .link1 {
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+}
+
+.navbar .link1 .number {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 10px;
+}
+
+.flag {
+  width: 30px;
+  height: 20px;
+}
+
+.blog {
+  background-color: #0c7c73;
+}
+
+.blog .row {
+  width: 100%;
+}
+
+.blog .miniblog {
+  border-radius: 15px;
+  height: 540px;
+  padding: 40px 20px 20px 40px;
+  background-color: #b5ebdf;
+}
+
+.blog .miniblog img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.blog .miniblog .text {
+  width: 100%;
+}
+
+.blog .miniblog .text .p1 {
+  letter-spacing: 1px;
+}
+
+.blog .miniblog .text h4 {
+  text-align: center;
+}
+
+.blog .miniblog .text .time {
+  color: #6b78e7;
+  font-weight: bold;
+  line-height: 3px;
+}
+
+.blog .miniblog .text .p2 {
+  text-align: center;
+}
+
+.blog .miniblog .text .icons .icon {
+  cursor: pointer;
+}
+
+.blog .miniblog .text .icons .icon:hover {
+  color: #1962e8;
+}
+
+.blog .miniblog .text .end {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.blog .miniblog .text .end .link {
+  margin-top: 3px;
+  width: 150px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none !important;
+  border: none;
+  background-color: #0b0c0c;
+  border-radius: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.blog .miniblog .text .end .link:hover {
+  background-color: #0e4e46;
+  color: black;
+}
+
+.blogdetailspage {
+  background-color: white;
+}
+
+.blogdetailspage header {
+  width: 100%;
+  height: 200px;
+}
+
+.blogdetailspage header h1 {
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.blogdetailspage header .text {
+  width: 100%;
+  text-align: center;
+}
+
+.blogdetailspage header .navlink {
+  color: #e81922;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.blogdetailspage .details {
+  background-color: white;
+}
+
+.blogdetailspage .details .row {
+  width: 100%;
+  border: 1px solid #ffc222;
+  padding: 10px;
+}
+
+.blogdetailspage .details .row .p1 {
+  color: #ffc222;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.blogdetailspage .details .row h1 {
+  font-weight: bold;
+}
+
+.blogdetailspage .details .row .p2 {
+  color: grey;
+  font-weight: 500;
+}
+
+.blogdetailspage .details .row img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.blogdetailspage .details .row .bg {
+  background-size: cover;
+  background-position: top;
+}
+
+.empty {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.card {
+  background-color: #eeeeee;
+}
+
+.card .carditems .carditem {
+  background-color: white;
+  height: 180px;
+  margin-top: 20px !important;
+  border: 2px solid #130b83;
+  border-radius: 5px;
+}
+
+.card .carditems .carditem img {
+  width: 80%;
+}
+
+.card .carditems .carditem .title {
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  color: #130b83;
+}
+
+.card .carditems .carditem .name {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.card .carditems .carditem .btn1 {
+  color: #e81922;
+  background-color: black;
+  font-weight: bold;
+  border: 2px solid #130b83;
+}
+
+.card .carditems .carditem .btn2 {
+  margin-top: 45px !important;
+  border: 1px solid black;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card .carditems .carditem .btn2:hover {
+  background-color: #130b83;
+}
+
+.card .total {
+  border: 2px solid black;
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+  margin: 0px !important;
+}
+
+.card .total .carttotal {
+  color: #e81922;
+  font-size: 20px;
+}
+
+.card .total .button1 {
+  border: none;
+  background-color: #19e8cc;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.card .total .button2 {
+  border: none;
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.section1 {
+  background-color: #0d011a;
+}
+
+.section1 h1 {
+  text-align: center;
+  line-height: 1.1;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.section1 p {
+  width: 60%;
+  text-align: center;
+  font-weight: 500;
+  color: wheat;
+}
+
+.section1 .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .product img {
+  width: 75%;
+  height: 400px;
+}
+
+.section1 .product .text {
+  width: 33%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0%;
+  left: 14%;
+}
+
+.section1 .product .text .title {
+  color: #2296da;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.section1 .product .text .title:hover {
+  background-color: #075980;
+}
+
+.section1 .product .text .price {
+  color: #23e0e0;
+  font-weight: 700;
+}
+
+.section1 .product .text button {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #19b8e8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section1 .product .text button:hover {
+  background-color: #9b0a11;
+}
+
+.footer {
+  color: white;
+  background-color: #090936;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.section3, .contact {
+  background-color: #090116;
+  width: 100%;
+}
+
+.section3 .button, .contact .button {
+  width: 30%;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  border: none;
+  background-color: #e81922;
+  border-radius: 30px;
+  margin-right: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section3 .button:hover, .contact .button:hover {
+  background-color: #a01c22;
+  color: black;
+}
+
+.section3 .icon, .contact .icon {
+  color: #eacf4f;
+  font-size: 40px;
+}
+
+.section3 .slick-arrow, .contact .slick-arrow {
+  background-color: black !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.section3 .item, .contact .item {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 90% !important;
+  height: 300px;
+}
+
+.section3 .item img, .contact .item img {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.section3 .item .text, .contact .item .text {
+  text-align: center;
+}
+
+.section3 .item .text .title, .contact .item .text .title {
+  color: white;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 17px;
+}
+
+.section3 .item .text .star, .contact .item .text .star {
+  color: #eacf4f;
+}
+
+.section3 .item .text .price, .contact .item .text .price {
+  color: white;
+  font-weight: bold;
+}
+
+.section3 .item .text button, .contact .item .text button {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #e81922;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section3 .item .text button:hover, .contact .item .text button:hover {
+  background-color: #b30f18;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.home .carousel-item {
+  width: 100%;
+  height: 450px;
+}
+
+.home .carousel-item img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.home .carousel-item h3 {
+  width: 60%;
+  position: absolute;
+  top: 100px;
+  margin-left: 50px;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
+}
+
+.home .carousel-item h3:hover {
+  color: yellow;
+}
+
+.home .carousel-item h1 {
+  top: 100px;
+  position: absolute;
+  margin-left: 800px;
+  color: black;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+.home .carousel-item h1:hover {
+  color: white;
+}
+
+.home .carousel-item h2 {
+  top: 150px;
+  position: absolute;
+  margin-left: 800px;
+  color: black;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+.home .carousel-item h2:hover {
+  color: yellow;
+}
+
+.section2 {
+  background-color: rgba(12, 12, 12, 0.945);
+  width: 100%;
+}
+
+.section2 .best {
+  text-align: center;
+  color: #c21111;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+
+.section2 img {
+  width: 350px;
+}
+
+.section2 .text {
+  text-align: center;
+}
+
+.section2 .text .title {
+  color: #be0d0d;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+}
+
+.section2 .text .star {
+  color: #eacf4f;
+}
+
+.section2 .text .price {
+  font-weight: bold;
+  color: #200cd3;
+}
+
+.section2 .text button {
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #09128d;
+  border-radius: 30px;
+  margin-right: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section2 .text button:hover {
+  background-color: #dba1a3;
+  color: black;
+}
+
+.section2 .all1 {
+  text-decoration: none !important;
+  color: black;
+  font-weight: bold;
+}
+
+.section2 .all {
+  width: 150px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.section2 .all:hover {
+  border-top: 1px solid #e81922;
+  border-bottom: 1px solid #e81922;
+  color: #e81922;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.section2 {
+  width: 100%;
+}
+
+.section2 .gun {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100% !important;
+}
+
+.section2 .gun .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #856385;
+  width: 500px;
+  height: 400px;
+}
+
+.section2 .gun .card img {
+  margin-left: 15px;
+  width: 250px;
+  height: 300px;
+}
+
+.section2 .gun .card a {
+  background-color: black;
+}
+
+.mode {
+  position: absolute;
+  position: fixed;
+  right: 20px;
+  top: 30%;
+  z-index: 100;
+  background-color: black;
+  border: 1px solid #e81922;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Rounded sliders */
+}
+
+.mode span {
+  font-size: 30px;
+}
+
+.mode .switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 60px;
+}
+
+.mode .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.mode .slide1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mode .slide1:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 2px;
+  top: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mode input:checked + .slide1 {
+  background-color: #c09595;
+}
+
+.mode input:focus + .slide1 {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+.mode input:checked + .slide1:before {
+  -webkit-transform: translateY(26px);
+  transform: translateY(26px);
+}
+
+.mode .slide1.round {
+  border-radius: 34px;
+}
+
+.mode .slide1.round:before {
+  border-radius: 50%;
+}
+
+.mode .switch-checkbox {
+  padding: 6px;
+}
+
+.dark-mode {
+  color: white;
+  background-color: #141414;
+}
+
+.dark-mode .blog {
+  background-color: #141414;
+}
+
+.dark-mode .blogdetailspage {
+  background-color: #141414;
+}
+
+.dark-mode .card {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

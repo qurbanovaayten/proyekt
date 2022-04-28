@@ -1,0 +1,76 @@
+.section3, .contact{
+    // height: 500px;
+    background-color: rgb(9, 1, 22) ;
+    // .slider{
+    //     background-color: #1a72ad !important;
+    // }
+    
+    width: 100%;
+    .button{
+        width: 30%;
+        height: 50px;
+        color: rgb(255, 255, 255);font-weight: bold;
+        font-family: 'Luckiest Guy', cursive;
+        border: none;
+        background-color: #e81922;
+        border-radius: 30px;
+        margin-right: 10px;
+        transition: 0.5s;
+        &:hover{
+            background-color: #a01c22;
+            color: black;
+        }
+
+
+    }
+    .icon{
+        color:  #eacf4f;
+        font-size: 40px;
+    }
+    .slick-arrow{
+        background-color: black !important;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    .item{
+       background-color: rgba(0,0,0,0.7);
+        width: 90% !important;
+        height: 300px;
+
+        img{
+            width: 50%;
+            margin-left: 20px;
+        }
+        .text{
+            text-align: center;
+            .title{
+                color: white;
+                font-weight: bold;
+                font-family: 'Luckiest Guy', cursive;
+                font-size: 17px;
+            }
+            .star{
+                color: #eacf4f;
+            }
+            .price{
+                color: white;
+                font-weight: bold;
+            }
+            button{
+                width: 150px;
+                height: 35px;
+                border: none;
+                border-radius: 20px;
+                color: #ffffff;
+                font-weight: bold;
+                font-size: 13px;
+                background-color: #e81922;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #b30f18;
+                }
+            }
+        }
+    }
+}

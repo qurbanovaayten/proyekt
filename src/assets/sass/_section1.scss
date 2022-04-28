@@ -1,0 +1,64 @@
+.section1{
+    background-color: #0d011a;
+    h1{
+        text-align: center;
+        line-height: 1.1;
+        font-family: 'Luckiest Guy', cursive;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    p{
+        
+        width: 60%;
+        text-align: center;
+        font-weight: 500;
+        color: wheat;
+    }
+    .product{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        img{
+            width: 75%;
+            height: 400px;
+        }
+        .text{
+            
+            width: 33%;
+            height: 100%;
+             background-color: rgba(0,0,0,0.7);
+            position: absolute;
+            top: 0%;
+            left: 14%;
+           
+            .title{
+               // margin: 80px;
+                color: rgb(34, 150, 218);
+                font-weight: 700;
+                font-size: 17px;
+                &:hover{
+                    background-color: #075980;
+                }
+            }
+            .price{
+                color: #23e0e0;
+                font-weight: 700;
+            }
+button{
+                width: 150px;
+                height: 35px;
+                border: none;
+                border-radius: 20px;
+                color: #ffffff;
+                font-weight: bold;
+                font-size: 13px;
+                background-color: #19b8e8;
+                transition: 0.5s;
+                &:hover{
+                background-color: #9b0a11;
+            }
+            }
+        }
+    }
+}
